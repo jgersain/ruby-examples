@@ -19,4 +19,8 @@ Lenguaje de programación dinámico, open source, interpretado y orientado a obj
 
 ## Contenido
 
-- [Variables]('01-variables.rb')
+- [Variables](01-variables.rb)
+- [Cadenas y Simbolos](02-strings-symbols.rb)
+- [Arreglos y Hashes](03-arrays-hashes.rb)
+- [Condiciones, ciclos y rangos](04-conditionals-cicles-ranges.rb)
+- [Expresiones regulares y lambdas](05-regex-lambda.rb)
