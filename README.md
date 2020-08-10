@@ -16,3 +16,7 @@ Lenguaje de programación dinámico, open source, interpretado y orientado a obj
 - Al ser interpretado tiende a ser lento
 - Alto uso de memoria
 - No soporta paralelismo
+
+## Contenido
+
+- [Variables]('01-variables.rb')
