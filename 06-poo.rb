@@ -1,7 +1,7 @@
 class Persona
 
   # declaracion de metodos de clase
-  def suggested_names
+  def self.suggested_names
     ['Hugo', 'Paco', 'Luis']
   end
 
@@ -51,7 +51,7 @@ class Persona
   # por lo que generará getter y setter para los atributos
   attr_accessor :name, :age
 
-  def suggested_names
+  def self.suggested_names
     ['Hugo', 'Paco', 'Luis']
   end
 
@@ -64,7 +64,7 @@ end
 
 # Otra forma de declarar clases con métodos es utilizando Struct
 class Persona < Struct.new(:name, :age)
-  def suggested_names
+  def self.suggested_names
     ['Hugo', 'Paco', 'Luis']
   end
 end 
